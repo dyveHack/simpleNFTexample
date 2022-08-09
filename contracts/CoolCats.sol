@@ -9,6 +9,7 @@ contract CoolCats is ERC721, Ownable{
     mapping(uint256 => string) tokenIDtoURI;
     constructor() ERC721("CoolCats", "CCAT") {
         _safeMint(owner(), 0);
+        _safeMint(owner(), 1);
     }
 
     function _baseURI() internal pure override returns (string memory) {
@@ -29,8 +30,12 @@ contract CoolCats is ERC721, Ownable{
         address to,
         uint256 tokenId
     ) internal override {
+        super._beforeTokenTransfer(from, to, tokenId);
+        
         if (tokenId == 0) {
             tokenIDtoURI[0] = "Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2";
+        } else if (tokenId == 1) {
+            tokenIDtoURI[1] = "QmXmUrA5SYtGqQzi5QeCZythuQBC8xZr2JLJRnf7d3eENM";
         } else {
             revert("Collection does not contain this ID!");
         }
