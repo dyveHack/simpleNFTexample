@@ -1,4 +1,5 @@
 <h1>The Cool Cats Collection</h1>
+![Cool Cats are cool by nature](coolcats.jpg?raw=true "Cool Cats")
 
 The IPFS of the Cool Cat image: Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2
 
