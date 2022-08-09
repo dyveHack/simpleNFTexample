@@ -29,6 +29,10 @@ contract CoolCats is ERC721, Ownable{
         address to,
         uint256 tokenId
     ) internal override {
-        tokenIDtoURI[tokenId] = "Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2";
+        if (tokenId == 0) {
+            tokenIDtoURI[tokenId] = "Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2";
+        } else {
+            revert("Collection does not contain this ID!");
+        }
     }
 }
