@@ -1,8 +1,6 @@
 <h1>The Cool Cats Collection</h1>
 
-![Cool Cats are cool by nature](coolcat.jpeg?raw=true "Cool Cats")
-
-The IPFS of the Cool Cat image: Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2
+![Cool Cats are cool by nature. The IPFS of this Cool Cat image: Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2](coolcat.jpeg?raw=true "Cool Cats")
 
 This was created via IPFS on the command line with:
 
@@ -19,4 +17,4 @@ Where nft.json contained the image details and the path to the image like this:
       "image": "https://ipfs.io/ipfs/QmXGj2CEw5aLFcH9W7izh3fyr3he4RTnEcBDtPnohHt5P2"
     }
 
-The collection contains only 1 element at this time.
+The collection contains only 2 elements at this time and was built as a test Collection at ETH Toronto 2022.
