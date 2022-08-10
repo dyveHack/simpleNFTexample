@@ -9,7 +9,7 @@ contract CoolCats is ERC721, Ownable{
     mapping(uint256 => string) tokenIDtoURI;
     constructor() ERC721("CoolCats", "CCAT") {
         // Mint to deployer all the coolcats
-        for (uint i; i < 10; i++)
+        for (uint i; i < 11; i++)
             _safeMint(owner(), i);
     }
 
