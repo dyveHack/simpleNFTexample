@@ -2,6 +2,8 @@
 
 ![Cool Cats are cool by nature. The IPFS of this Cool Cat image: Qmc4rBWMPEJUM6MueXH4eaUFrbuUW3ZJw95uxnZabiTfM2](coolcat.jpeg?raw=true "Cool Cats")
 
+FIRST: This was as uper rushed implementation at a Hackathon and was *not* the deliverable and also not the priority. For a better example on how to implement an NFT collection that is also scalable see this: https://github.com/jesperkristensen58/BoredCatsNFTCollection.
+
 This was created via IPFS on the command line with:
 
     ipfs init
